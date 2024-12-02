@@ -1,11 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="JGexamen2.MainPage">
+             x:Class="JGexamen2.MainPage"
+             BackgroundColor="LightSlateGray">
 
-    <Grid Padding="10" RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="*,*">
-        <Entry x:Name="JGInputEntry" Placeholder="Ingrese valor" Grid.Row="0" Grid.ColumnSpan="2"/>
-        <Picker x:Name="JGFromUnitPicker" Title="De" Grid.Row="1" Grid.Column="0">
+    <Grid Padding="10" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*">
+
+        <Entry x:Name="JGInputEntry" 
+               Placeholder="Ingrese valor" 
+               Grid.Row="1" 
+               Grid.ColumnSpan="2" 
+               BackgroundColor="Black"
+               PlaceholderColor="White"
+               TextColor="FloralWhite"
+               Keyboard="Numeric"
+               Margin="0,10"/>
+
+        <Picker x:Name="JGFromUnitPicker" 
+                Title="De" 
+                Grid.Row="2" 
+                Grid.Column="0" 
+                TextColor="White">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Libras</x:String>
@@ -14,7 +28,13 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Picker x:Name="JGToUnitPicker" Title="A" Grid.Row="1" Grid.Column="1">
+
+      
+        <Picker x:Name="JGToUnitPicker" 
+                Title="A" 
+                Grid.Row="2" 
+                Grid.Column="1" 
+                TextColor="White">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Libras</x:String>
@@ -23,7 +43,42 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Button x:Name="JGConvertButton" Text="Convertir" Clicked="JGOnConvertClicked" Grid.Row="2" Grid.ColumnSpan="2"/>
-        <Label x:Name="JGResultLabel" Text="Resultado" Grid.Row="3" Grid.ColumnSpan="2" FontAttributes="Bold"/>
+
+        <Button x:Name="JGConvertButton" 
+                Text="Convertir" 
+                Grid.Row="3" 
+                Grid.ColumnSpan="2" 
+                Clicked="JGOnConvertClicked"
+                BackgroundColor="Black" 
+                TextColor="White"
+                HeightRequest="50" 
+                CornerRadius="10"
+                FontAttributes="Bold"
+                Margin="0,10"/>
+
+        <Label x:Name="JGResultLabel" 
+               Text="Resultado" 
+               Grid.Row="4" 
+               Grid.ColumnSpan="2" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center"
+               TextColor="White"
+               Margin="0,0,0,10"/>
+
+      
+        <Button x:Name="JGResetButton" 
+                Text="Reiniciar" 
+                Grid.Row="5" 
+                Grid.ColumnSpan="2" 
+                Clicked="JGOnResetClicked"
+                BackgroundColor="Red" 
+                TextColor="Black"
+                HeightRequest="50" 
+                CornerRadius="10"
+                FontAttributes="Bold"
+                Margin="0,10"/>
     </Grid>
 </ContentPage>
+
+
+

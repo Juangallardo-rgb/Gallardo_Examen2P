@@ -9,10 +9,17 @@ namespace JGexamen2
         {
             InitializeComponent();
         }
+        private void JGOnResetClicked(object sender, EventArgs e)
+        {
+            JGInputEntry.Text = string.Empty;
+            JGFromUnitPicker.SelectedIndex = -1;
+            JGToUnitPicker.SelectedIndex = -1;
+            JGResultLabel.Text = "Resultado";
+        }
 
         private void JGOnConvertClicked(object sender, EventArgs e)
         {
-            if (double.TryParse(JGInputEntry.Text, out double JGInputValue) &&
+            if (double.TryParse(JGInputEntry.Text, out double JGInputValue) && 
                 JGFromUnitPicker.SelectedItem != null &&
                 JGToUnitPicker.SelectedItem != null)
             {

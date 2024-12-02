@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\GitHub\\Gallardo_Examen2P\\JGexamen2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95BC2925-17BE-4454-BD91-E15C539FA6B2}|JGexamen2.csproj|c:\\users\\dell\\documents\\github\\gallardo_examen2p\\jgexamen2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BC2925-17BE-4454-BD91-E15C539FA6B2}|JGexamen2.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95BC2925-17BE-4454-BD91-E15C539FA6B2}|JGexamen2.csproj|c:\\users\\dell\\documents\\github\\gallardo_examen2p\\jgexamen2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{95BC2925-17BE-4454-BD91-E15C539FA6B2}|JGexamen2.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95BC2925-17BE-4454-BD91-E15C539FA6B2}|JGexamen2.csproj|c:\\users\\dell\\documents\\github\\gallardo_examen2p\\jgexamen2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95BC2925-17BE-4454-BD91-E15C539FA6B2}|JGexamen2.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95BC2925-17BE-4454-BD91-E15C539FA6B2}|JGexamen2.csproj|c:\\users\\dell\\documents\\github\\gallardo_examen2p\\jgexamen2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\GitHub\\Gallardo_Examen2P\\JGexamen2\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Dell\\Documents\\GitHub\\Gallardo_Examen2P\\JGexamen2\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T14:38:51.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\GitHub\\Gallardo_Examen2P\\JGexamen2\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\Dell\\Documents\\GitHub\\Gallardo_Examen2P\\JGexamen2\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-02T14:33:37.288Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T14:25:49.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T14:25:49.826Z"
             }
           ]
         }
