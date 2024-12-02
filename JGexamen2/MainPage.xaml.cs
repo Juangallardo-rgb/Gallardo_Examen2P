@@ -1,25 +1,51 @@
-﻿namespace JGexamen2
+﻿using Microsoft.Maui.Controls;
+using System;
+
+namespace JGexamen2
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void JGOnConvertClicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+            if (double.TryParse(JGInputEntry.Text, out double JGInputValue) &&
+                JGFromUnitPicker.SelectedItem != null &&
+                JGToUnitPicker.SelectedItem != null)
+            {
+                string JGFromUnit = JGFromUnitPicker.SelectedItem.ToString();
+                string JGToUnit = JGToUnitPicker.SelectedItem.ToString();
+                double JGResult = JGConvertUnits(JGInputValue, JGFromUnit, JGToUnit);
+                JGResultLabel.Text = $"Resultado: {JGResult:F2} {JGToUnit}";
+            }
             else
-                CounterBtn.Text = $"Clicked {count} times";
+            {
+                JGResultLabel.Text = "Ingrese un número válido y seleccione las unidades.";
+            }
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private double JGConvertUnits(double JGValue, string JGFromUnit, string JGToUnit)
+        {
+            if (JGFromUnit == JGToUnit)
+                return JGValue;
+
+            // Conversiones intermedias
+            double JGValueInKg = JGFromUnit switch
+            {
+                "Libras" => JGValue * 0.453592,
+                "Onzas" => JGValue * 0.0283495,
+                _ => JGValue // Kilogramos
+            };
+
+            return JGToUnit switch
+            {
+                "Libras" => JGValueInKg / 0.453592,
+                "Onzas" => JGValueInKg / 0.0283495,
+                _ => JGValueInKg // Kilogramos
+            };
         }
     }
-
 }

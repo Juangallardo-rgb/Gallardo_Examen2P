@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JGexamen2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+79fc7bd5dd784cc3a063e16ec978abf2a17bc721")]
 [assembly: System.Reflection.AssemblyProductAttribute("JGexamen2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JGexamen2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
