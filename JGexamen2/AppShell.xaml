@@ -8,7 +8,7 @@
     Title="JGexamen2">
 
     <ShellContent
-        Title="Home"
+        Title="Juan Gallardo Convertidor de Unidades"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

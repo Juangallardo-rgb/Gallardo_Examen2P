@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Dell\Documents\GitHub\Gallardo_Examen2P\JGexamen2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-02T15:57:49.773</Modified>
+      <Modified>2024-12-02T16:10:10.723</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\Documents\GitHub\Gallardo_Examen2P\JGexamen2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\JGexamen2.dll">
       <PackagePath>JGexamen2.dll</PackagePath>
-      <Modified>2024-12-02T15:57:49.428</Modified>
+      <Modified>2024-12-02T16:10:10.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\Documents\GitHub\Gallardo_Examen2P\JGexamen2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>JGexamen2.exe</PackagePath>
-      <Modified>2024-12-02T15:57:49.432</Modified>
+      <Modified>2024-12-02T16:10:10.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\Documents\GitHub\Gallardo_Examen2P\JGexamen2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
